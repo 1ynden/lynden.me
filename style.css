@@ -1,0 +1,158 @@
+@import url("https://use.typekit.net/jmk3xov.css");
+@import url("https://fonts.google.com/specimen/Comfortaa");
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+html{
+  scrollbar-width: none; /* FF remove scrollbar (only works in html section) */
+}
+
+body{
+  -ms-overflow-style: none; /* IE remove scrollbar */
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+
+:root {
+  --dark-bg: rgba(15, 15, 15, 0.95);
+  --spacing: 350px;
+
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+main {
+  width: 100vw;
+  color: white;
+  z-index: 99;
+  position: absolute;
+  width: 100%;
+  margin: 0px auto;
+  padding: 120px 0px;
+  
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+h1, h2, h3, blockquote {
+  font-family: Montserrat, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+h3{
+  margin-left: 1.5rem;
+}
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+header {
+  border-radius: 20px;
+  text-align: center;
+  background: var(--dark-bg);
+  grid-column: 4 / span 6;
+  font-size: 2.5rem;
+  padding: 2rem;
+  margin-bottom: var(--spacing);
+}
+
+section {
+  border-radius: 20px;
+  grid-column: 2 / 8;
+  padding: 1rem;
+  background: var(--dark-bg);
+  font-size: 1.25rem;
+  line-height: 1.5;
+  margin-bottom: var(--spacing);
+}
+
+section:not(:hover) {
+  z-index: -1;
+  transition-duration: 0.5s;
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+}
+
+section:hover{
+  z-index: 1000;
+  transition-duration: 0.5s;
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  -o-transform: scale(1.05);
+}
+
+blockquote {
+  margin: 0;
+  padding: 0;
+  grid-column: 2 / span 9;
+  margin-bottom: var(--spacing);
+}
+
+blockquote p {
+  color: black;
+  background-color: white;
+  font-size: 4rem;
+  display: inline;
+  line-height: 1;
+}
+
+ul{
+  margin-left: 1.5rem;
+  list-style: none;
+}
+
+.left {
+  grid-column: 6 / 12;
+}
+
+.off{
+  display: inline;
+  opacity: 0.5;
+  font-size: 0.9rem;
+  text-align: right;
+}
+
+p{
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+a{
+  color: white;
+}
+
+a:hover{
+  font-weight: bold;
+}
+
+.slim{
+  grid-column: 7 / 11;
+  grid-row: 6;
+}
+
+.center{
+  grid-column: 4 / 10;
+  grid-row: 7;
+}
+
+.centertext{
+  text-align: center;
+}
+
+::-webkit-scrollbar{
+  display: none;
+}
