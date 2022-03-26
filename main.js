@@ -1,5 +1,5 @@
 import './style.css';
-import * as THREE from '/node_modules/three';
+import * as THREE from '/node_modules/three/';
 import { GLTFLoader } from '/node_modules/three/examples/jsm/loaders/GLTFLoader.js';
 
 var mixer, mixer2, mixer3, mixer4, mixer5, delta;
