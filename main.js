@@ -1,4 +1,3 @@
-import './style.css';
 import * as THREE from '/node_modules/three/';
 import { GLTFLoader } from '/node_modules/three/examples/jsm/loaders/GLTFLoader.js';
 
