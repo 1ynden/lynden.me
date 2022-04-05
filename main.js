@@ -1,5 +1,5 @@
 import * as THREE from '/node_modules/three';
-import { GLTFLoader } from '/node_modules/three/examples/jsm/loaders/GLTFLoader';
+import { GLTFLoader } from '/node_modules/three/examples/jsm/loaders/GLTFLoader.js';
 
 var mixer, mixer2, mixer3, mixer4, mixer5, delta;
 const degree = (360/(document.documentElement.scrollHeight-document.documentElement.clientHeight));
