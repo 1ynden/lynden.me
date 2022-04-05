@@ -1,4 +1,4 @@
-import { GLTFLoader } from 'GLTFLoader.js';
+import { GLTFLoader } from './GLTFLoader.js';
 
 var mixer, mixer2, mixer3, mixer4, mixer5, delta;
 const degree = (360/(document.documentElement.scrollHeight-document.documentElement.clientHeight));
